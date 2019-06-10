@@ -1,0 +1,27 @@
+{
+  "name": "ufinity-asn",
+  "version": "1.0.0",
+  "description": "Assignment given by Ufinity",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha --recursive --exit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dbdeboban/Ufinity-Assignment.git"
+  },
+  "author": "Debottam Banerjee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dbdeboban/Ufinity-Assignment/issues"
+  },
+  "homepage": "https://github.com/dbdeboban/Ufinity-Assignment#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "chai": "^4.2.0",
+    "express": "^4.17.1",
+    "mocha": "^6.1.4",
+    "mysql": "^2.17.1",
+    "sequelize": "^5.8.8"
+  }
+}
