@@ -14,6 +14,9 @@ module.exports = {
     */
     return queryInterface.bulkInsert('teachers', 
     [{ "email": "thebblewaite0@nydailynews.com", "updatedAt": "2019-05-12 09:42:19", "createdAt": "2018-11-12 05:58:13" },
+    { "email": "teacherken@gmail.com", "updatedAt": "2018-10-19 18:23:20", "createdAt": "2018-07-03 21:34:59" },
+    { "email": "teacherbob@gmail.com", "updatedAt": "2018-10-19 18:23:20", "createdAt": "2018-07-03 21:34:59" },
+    { "email": "teacherlob@gmail.com", "updatedAt": "2018-10-19 18:23:20", "createdAt": "2018-07-03 21:34:59" },
     { "email": "ebradforth1@sciencedirect.com", "updatedAt": "2018-10-19 18:23:20", "createdAt": "2018-07-03 21:34:59" },
     { "email": "dbury2@cafepress.com", "updatedAt": "2019-05-23 22:49:13", "createdAt": "2018-11-03 11:54:05" },
     { "email": "gwebling3@netvibes.com", "updatedAt": "2019-02-20 12:26:00", "createdAt": "2019-03-16 02:17:59" },

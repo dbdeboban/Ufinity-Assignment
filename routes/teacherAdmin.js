@@ -115,7 +115,7 @@ router.post('/suspend', (req, res, next) => {
     const studentEmail = req.body.student;
     if (typeof studentEmail !== 'undefined' && emailRex.test(studentEmail)) {
         db.student.update({
-            isSuspend: false
+            isSuspend: true
         }, {
                 where: {
                     email: studentEmail
@@ -123,7 +123,7 @@ router.post('/suspend', (req, res, next) => {
             }).then(() => {
                 res.status(204).end();
             }).catch(error => {
-                res.status(400).json({ message: error });
+                res.status(400).json({ message: "Invalid Email or Invalid Request" });
             });
     } else {
         res.status(400).json({ message: "Invalid Email or Invalid Request" });
