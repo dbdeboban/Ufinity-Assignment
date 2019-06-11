@@ -13,6 +13,6 @@ const teacherAdminRoutes = require('./routes/teacherAdmin');
 
 app.use('/api', teacherAdminRoutes);
 
-app.listen(config.port, err => {
+app.listen(port, err => {
     console.log('Server accessible on port :' + port);
 });
