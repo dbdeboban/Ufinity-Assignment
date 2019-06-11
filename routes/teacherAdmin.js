@@ -179,8 +179,6 @@ router.post('/retrievefornotifications', (req, res, next) => {
             studentsArray.forEach(student => {
                 studentsNotSuspended.push(student['email']);
             });
-            console.log(allStudents);
-            console.log(studentsNotSuspended);
             studentsNotSuspended = studentsNotSuspended.filter(Set.prototype.has, new Set(allStudents));
             recipientArray.push(...studentsNotSuspended);
             data = { "recipients": recipientArray }
